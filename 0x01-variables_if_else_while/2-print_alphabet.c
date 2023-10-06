@@ -1,16 +1,24 @@
 #include <stdio.h>
+
 /**
 *main - Entry point
-*Description: 'print alphabet in lowercase'
-*Return: Always 0
+*Description: Prints the alphabets in lowercase
+*Return: Always 0 (Success)
 */
 int main(void)
 {
-int n = 97;
-while (n <= 122)
+char letter = 97;
+while (letter <= 122)
 {
-putchar(n);
-n++;
+putchar(letter);
+letter++;
 }
-putchar('\n');
+letter = 65;
+while (letter <= 90)
+{
+putchar(letter);
+letter++;
+}
+putchar(10);
 return (0);
+}
