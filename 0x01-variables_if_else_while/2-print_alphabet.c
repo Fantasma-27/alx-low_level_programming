@@ -1,16 +1,16 @@
-#include <stdio.h> 
+#include <stdio.h>
 /**
- * main - Entry point
- * Description: print alphabet in lowercase
- * Return: Always 0 (Success)
- */
-int main() 
-{ 
-    // Get the character to be written 
-    char ch = 'G'; 
-  
-    // Write the Character to stdout 
-    putchar(ch); 
-  
-    return (0); 
-} `
+*main - Entry point
+*Description: 'print alphabet in lowercase'
+*Return: Always 0
+*/
+int main(void)
+{
+int n = 97;
+while (n <= 122)
+{
+putchar(n);
+n++;
+}
+putchar('\n');
+return (0);
