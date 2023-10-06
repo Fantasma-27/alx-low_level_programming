@@ -13,12 +13,6 @@ while (letter <= 122)
 putchar(letter);
 letter++;
 }
-letter = 65;
-while (letter <= 90)
-{
-putchar(letter);
-letter++;
-}
 putchar(10);
 return (0);
 }
