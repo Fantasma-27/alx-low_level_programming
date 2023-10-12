@@ -13,7 +13,7 @@ else
 {
 int i, j;
 for (i = 1; i <= size; i++)
-}
+{
 for (j = i; j < size; j++)
 {
 _putchar(' ');
