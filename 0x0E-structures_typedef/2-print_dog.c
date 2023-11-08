@@ -5,7 +5,7 @@
 * print_dog - prints a struct dog
 * @d: struct dog to print
 */
-typedef struct dog dog_t;
+
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
