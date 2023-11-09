@@ -1,7 +1,7 @@
 #ifndef _VAR_FUNCTION_H_
 #define _VAR_FUNCTION_H_
 
-#incude <stdio.h>
+#include <stdio.h>
 #include <stdarg.h>
 
 int sum_them_all(const unsigned int n, ...);
