@@ -15,7 +15,7 @@ i = 0;
 
 /*while (i < 10)*/
 /*{*/
-f/*putchar(i);*/
+/*putchar(i);*/
 /*}*/
 
 printf("Infinite loop avoided! \\o/\n");
